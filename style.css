@@ -3,8 +3,12 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 header {
-  background-color: rgb(170, 179, 179);
+  background-color: rgb(128, 133, 133);
   height: 80px;
   width: 100%;
   margin-bottom: 1em;
@@ -56,10 +60,13 @@ header h1 {
 .add-list {
   font-family: "Noto Sans", sans-serif;
   width: 500px;
-  margin: auto;
   border-top: 2px solid #444;
   padding: 1.2em 0;
   display: flex;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .add-list-form {
