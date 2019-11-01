@@ -74,6 +74,7 @@ header h1 {
   border: none;
   height: 2em;
   padding: 0.2em 1em;
+  margin-right: 0.5em;
 }
 
 .add-list-btn {
